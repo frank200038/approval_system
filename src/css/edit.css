@@ -1,0 +1,71 @@
+body{
+    background: #145374
+}
+
+.card
+{
+    border-radius: 4px;
+    background: #fff;
+    
+    padding: 18px 90px 20px 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    margin-bottom: 2%;
+}
+
+#remove,#save{
+    margin-left: 5%;
+    width:90%;
+}
+
+.btn[id^='remove-ingredient-']{
+    padding: 0.01rem 0.4rem;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+
+.invalid-feedback
+{
+    display:block;
+}
+
+#drop-zone{
+    border-style:dotted;
+}
+
+#drop-zone-text,#drop-zone-text-error{
+    text-align : center; 
+    margin-top:auto; 
+    margin-bottom:auto; 
+    padding-top:5%; 
+    padding-bottom:5%;
+    color: grey;
+}
+
+#drop-zone-text-error{
+     color: white;
+     background-color: rgba(255,0,0,1);
+}
+
+
+.drag-over{
+    background-color: rgb(82, 141, 136,0.4);
+    transform: scale(1.05);
+    box-shadow: 1px 8px 10px rgb(126, 126, 126), 0px -5px 10px rgb(126, 126, 126);
+    transition: background-color 0.1s linear;
+}
+
+canvas{
+    margin-bottom:10px;
+    border-color:black;
+}
+
+
+.btn-primary,.btn-outline-primary,.btn-primary:hover,.btn-outline-primary:hover,.show>.btn-primary.dropdown-toggle
+,.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active
+, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active{
+    color: #ffffff;
+    background-color: #ee6f57;
+    border-color: #ee6f57;
+}

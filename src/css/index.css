@@ -1,0 +1,31 @@
+.card
+{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 1px 8px 10px rgb(43, 43, 43), 0px -5px 10px rgb(63, 63, 63);
+    padding: 18px 90px 20px 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:3%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+.navbar > a {
+    padding-left:10px;
+}
+.card:hover{
+    transform : scale(1.05);
+}
+
+body{
+    background: #145374
+}
+
+.btn-primary,.btn-outline-primary,.btn-primary:hover,.btn-outline-primary:hover,.show>.btn-primary.dropdown-toggle
+,.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active
+, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active{
+    color: #ffffff;
+    background-color: #ee6f57;
+    border-color: #ee6f57;
+}

@@ -1,0 +1,49 @@
+body{
+    background-image:url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card
+{
+    border-radius: 4px;
+    background: #fff;
+    
+    padding: 18px 90px 20px 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    margin-bottom: 2%;
+}
+
+canvas{
+    margin-bottom:10px;
+    border-color:black;
+}
+
+.btn-primary,.btn-outline-primary,.btn-primary:hover,.btn-outline-primary:hover,.show>.btn-primary.dropdown-toggle
+,.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active
+, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active{
+    color: #ffffff;
+    background-color: #ee6f57;
+    border-color: #ee6f57;
+}
+
+
+#approve,#change{
+    margin-bottom:50px;
+    margin-left:50px;
+    font-size: 25px;
+}
+
+#approve{
+    background-color:green;
+    border-color: green;
+    
+}
+
+#name{
+    font-size:20px;
+    font-weight:bold;
+    text-decoration: underline;
+}
