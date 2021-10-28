@@ -1,7 +1,7 @@
 <?php
     function connect(){
         $config = parse_ini_file('database.ini');
-        $con = mysqli_connect("mysql.jfcgraphics.co",$config['username'],$config['password'],$config['db']);
+        $con = mysqli_connect("database.xxxx.com",$config['username'],$config['password'],$config['db']);
         if(!$con){
             die("Failed to connect to Database"); 
         }
