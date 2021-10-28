@@ -1,6 +1,4 @@
-# Approval System 
-
-<h2> Introduction </h2>
+# Introduction 
 
 <p> The approval system is a functional system created specifically for a graphic designing company (Password and Domain name hidden for security reason) in order to facilitate the approval process between the designer and the customer. Coded majorly in PHP and JavaScript in conjunction with the use of MySQL to help with the storage of each project.
   
